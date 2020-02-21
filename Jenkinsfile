@@ -74,9 +74,9 @@ pipeline {
     }
 
     post {
-         mail to: ‘nicole.gottfredson@gmail.com’,
-    	subject: “Failed Pipeline: ${currentBuild.fullDisplayName}”,
-    	body: “Something is wrong with ${env.BUIL_URL}”
+         mail to: 'nicole.gottfredson@gmail.com',
+    	subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+    	body: "Something is wrong with ${env.BUIL_URL}"
     }
 
 
