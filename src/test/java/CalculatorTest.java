@@ -6,7 +6,7 @@ import java.util.Set;
 import static org.junit.Assert.*;
 public class CalculatorTest {
 
-    program should break now
+    program should break
 
     @Test
     public void addTest(){
